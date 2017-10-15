@@ -37,7 +37,7 @@ nav ul li {
 
 
 article{
-position:relative;
+
   width: 533px;
   height: 250px;
   background: pink;
@@ -51,27 +51,6 @@ text-align: center;
 
 }
 
-
-
-aside{	position:absolute;
-	background:purple; 
-	color:white;
-	align-items:center;
-	justify-content:center;
-	display:flex;
-	vertical align:text-top;
-    	top: 80px;
-    	width: 290px;
-	 right: 450px;
-    	height: 270px;
-    	border: 3px ;
-
-}
-
-
-
-
-
 section{
 width:533px;
 height: 80px;
@@ -84,7 +63,23 @@ padding:10px;
 
 }
 
+aside{	
+background:purple;
+color:white;
+position:relative;
+align-items:center;
+justify-content:center;
+display:flex;
+width:300px;
+bottom:270px;
+height:250px;
+left:550px;
+right:300px;
+border:3px;
+margin-bottom:-270px;
 
+
+}
 
 
 
