@@ -50,7 +50,7 @@ article{
 text-align: center;
   overflow: hidden;
 	display: inline-block; 
-	float: left;// add this to float element left for other element to go right automatically
+	float: left;
 }
 
 section{
