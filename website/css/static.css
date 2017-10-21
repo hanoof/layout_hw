@@ -6,14 +6,14 @@ body{
 }
 
 header {
-	background:blue; 
+	background:blue;
 	color:white;
 	width:800px;
 	margin:0;
 	align-items:center;
 	justify-content:center;
 	display:flex;
-	height:50px; 
+	height:50px;
 }
 
 
@@ -23,14 +23,17 @@ nav ul{
 	color:white;
 	background:green;
 	width:800px;
-	height:30px; 
+	height:30px;
+	padding: 0;
 
 	}
+
 
 nav ul li {
 	display:inline-block;
 	margin:5px;
 	color:white;
+
 
 }
 
@@ -40,14 +43,14 @@ article{
   width: 533px;
   height: 250px;
   background: pink;
-color:white;
-padding:10px;
-border-spacing: 10px;
-border-width:10px;
+	color:white;
+	padding:0;
+	border-spacing: 10px;
+	border-width:10px;
 text-align: center;
-   overflow: hidden;
-
-
+  overflow: hidden;
+	display: inline-block; 
+	float: left;// add this to float element left for other element to go right automatically
 }
 
 section{
@@ -57,29 +60,30 @@ background: red;
 border-spacing: 10px;
 box-sizing: border-box;
 border-size:10px;
-margin: 10px;
+margin-top: 10px;
 padding:10px;
 display:inline-block;
 }
 
 aside{
-	background:purple; 
+	background:purple;
 	color:white;
-	width:266px;
-	margin:0;
+	width:267px;
+	display: inline-block;
 	align-items:center;
 	justify-content:center;
 	display:flex;
-	height:180px; 
+	height:250px;
+
 }
 
 footer {
-	background:green; 
+	background:green;
 	color:white;
 	width:800px;
 	margin:0;
 	align-items:center;
 	justify-content:center;
 	display:flex;
-	height:30px; 
+	height:30px;
 }

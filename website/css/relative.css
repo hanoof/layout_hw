@@ -6,15 +6,15 @@ body{
 }
 
 header {
-	background:blue; 
+	background:blue;
 	color:white;
 	width:800px;
 	margin:0;
 	align-items:center;
 	justify-content:center;
 	display:flex;
-	height:50px; 
-	
+	height:50px;
+
 }
 
 
@@ -24,8 +24,8 @@ nav ul{
 	color:white;
 	background:green;
 	width:800px;
-	height:30px; 
-
+	height:30px;
+	padding: 0;
 	}
 
 nav ul li {
@@ -42,11 +42,13 @@ article{
   height: 250px;
   background: pink;
 color:white;
-padding:10px;
+padding:0px;
 border-spacing: 10px;
 border-width:10px;
 text-align: center;
    overflow: hidden;
+
+	 margin: 0;
 
 
 }
@@ -58,25 +60,23 @@ background: red;
 border-spacing: 10px;
 box-sizing: border-box;
 border-size:10px;
-margin: 10px;
+margin-top: 10px;
 padding:10px;
 
 }
 
-aside{	
+aside{
 background:purple;
 color:white;
 position:relative;
 align-items:center;
 justify-content:center;
 display:flex;
-width:300px;
-bottom:270px;
+width:267px;
+left: 533px;
 height:250px;
-left:550px;
-right:300px;
 border:3px;
-margin-bottom:-270px;
+margin-top: -250px;
 
 
 }
@@ -86,12 +86,13 @@ margin-bottom:-270px;
 
 
 footer {
-	background:green; 
+	background:green;
+	position:relative;
 	color:white;
 	width:800px;
 	margin:0;
 	align-items:center;
 	justify-content:center;
 	display:flex;
-	height:30px; 
+	height:30px;
 }

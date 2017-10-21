@@ -18,14 +18,23 @@ header {
 
 
 
-nav ul{
-	margin:0;
-	color:white;
-	background:green;
+nav {
+
 	width:800px;
-	height:30px; 
 
 	}
+
+nav ul{
+margin:0;
+	color:white;
+	background:green;
+	width:100%;
+	height:30px;
+	padding: 0; // user agent stylesheet application
+
+}
+
+
 
 nav ul li {
 	display:inline-block;
@@ -41,12 +50,12 @@ article{
   height: 250px;
   background: pink;
 color:white;
-padding:10px;
+padding:0px;
 border-spacing: 10px;
 border-width:10px;
 text-align: center;
    overflow: hidden;
-
+float: left; // make it float left or else it will take the entire column
 
 }
 
@@ -57,7 +66,7 @@ background: red;
 border-spacing: 10px;
 box-sizing: border-box;
 border-size:10px;
-margin: 10px;
+margin-top: 10px;
 padding:10px;
 display:inline-block;
 }
@@ -69,7 +78,7 @@ aside{
 	justify-content:center;
 	display:flex;
 float:right;
-width:300px;
+width:267px;
 height:250px;
 }
 
