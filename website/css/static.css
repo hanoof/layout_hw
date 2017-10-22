@@ -6,14 +6,14 @@ body{
 }
 
 header {
-	background:blue;
+	background:blue; 
 	color:white;
 	width:800px;
 	margin:0;
 	align-items:center;
 	justify-content:center;
 	display:flex;
-	height:50px;
+	height:50px; 
 }
 
 
@@ -26,7 +26,8 @@ nav ul{
 	height:30px;
 	padding: 0;
 
-	}
+
+}
 
 
 nav ul li {
@@ -40,50 +41,47 @@ nav ul li {
 
 article{
 
-  width: 533px;
-  height: 250px;
-  background: pink;
+	width: 533px;
+	height: 250px;
+	background: pink;
 	color:white;
-	padding:0;
 	border-spacing: 10px;
 	border-width:10px;
-text-align: center;
-  overflow: hidden;
-	display: inline-block; 
-	float: left;
+	text-align: center;
+	overflow: hidden;
+
+
 }
 
 section{
-width:533px;
-height: 80px;
-background: red;
-border-spacing: 10px;
-box-sizing: border-box;
-border-size:10px;
-margin-top: 10px;
-padding:10px;
-display:inline-block;
+	width:533px;
+	height: 80px;
+	background: red;
+	border-spacing: 10px;
+	box-sizing: border-box;
+	border-size:10px;
+	margin: 10px 0;
+	padding:10px;
+	display:inline-block;
 }
 
 aside{
-	background:purple;
+	background:purple; 
 	color:white;
-	width:267px;
-	display: inline-block;
-	align-items:center;
+	width:266px;
+	margin:0;
 	justify-content:center;
 	display:flex;
-	height:250px;
-
+	height:180px; 
 }
 
 footer {
-	background:green;
+	background:green; 
 	color:white;
 	width:800px;
 	margin:0;
 	align-items:center;
 	justify-content:center;
 	display:flex;
-	height:30px;
+	height:30px; 
 }
